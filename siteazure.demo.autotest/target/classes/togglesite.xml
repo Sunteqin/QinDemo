@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:autotest xmlns:suren="http://surenpi.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://surenpi.com
+		http://surenpi.com/schema/autotest/autotest.web.framework.xsd ">
+	<suren:engine />
+	<suren:pages>
+		<suren:page class="com.siteazure.demo.page.ToggleSitePage"
+				url="http://www.siteazure.gov.cn/manage/index">
+		    <suren:field name="ToggleButton" byCss="header-function-dropdown-control" />	
+			<suren:field name="Platform_Site" byLinkText="平台管理" />
+			<suren:field name="Main_Site" byLinkText="默认主站" />
+			<suren:field name="Hbj_Site" byLinkText="环保局" />
+			<suren:field name="Lhz_Site" byLinkText="兰花镇" />
+			<suren:field name="Xf_Site" byLinkText="信访局" />
+			<suren:field name="Kj_Site" byLinkText="科技局" />
+		</suren:page>
+	</suren:pages>
+</suren:autotest>

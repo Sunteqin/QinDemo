@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:autotest xmlns:suren="http://surenpi.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://surenpi.com
+		http://surenpi.com/schema/autotest/autotest.web.framework.xsd ">
+	<suren:engine />
+	<suren:pages>
+		<suren:page class="com.siteazure.demo.page.BaiduHomePage"
+				url="https://www.baidu.com/">
+			<suren:field name="keyword" byId="kw" />
+			<suren:field name="searchBut" byId="su" />
+		</suren:page>
+	</suren:pages>
+</suren:autotest>

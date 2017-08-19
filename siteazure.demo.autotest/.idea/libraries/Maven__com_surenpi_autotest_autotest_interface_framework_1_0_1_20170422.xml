@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.surenpi.autotest:autotest.interface.framework:1.0.1-20170422">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/surenpi/autotest/autotest.interface.framework/1.0.1-20170422/autotest.interface.framework-1.0.1-20170422.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/surenpi/autotest/autotest.interface.framework/1.0.1-20170422/autotest.interface.framework-1.0.1-20170422-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/surenpi/autotest/autotest.interface.framework/1.0.1-20170422/autotest.interface.framework-1.0.1-20170422-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

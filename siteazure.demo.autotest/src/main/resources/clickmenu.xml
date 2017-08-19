@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:autotest xmlns:suren="http://surenpi.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://surenpi.com
+		http://surenpi.com/schema/autotest/autotest.web.framework.xsd ">
+	<suren:engine />
+	<suren:pages>
+		<suren:page class="com.siteazure.demo.page.SiteMap_MainPage.ClickMenu_MainPage"
+				url="http://www.siteazure.gov.cn/manage/index">
+			<suren:field name="parentNode_MyWork" byLinkText="我的工作" />
+			<suren:field name="chirldrenNode_MyWorkbench" byLinkText="我的工作台" />
+			<suren:field name="chirldrenNode_MessageListNavigation" byLinkText="我的站内短消息" />
+			<suren:field name="chirldrenNode_ContentManage" byLinkText="内容管理" />
+			<suren:field name="chirldrenNode_Drafts" byLinkText="草稿箱" />
+			<suren:field name="chirldrenNode_RejectionBox" byLinkText="退稿箱" />
+
+			<suren:field name="parentNode_PerformanceCenter" byLinkText="绩效中心" />
+			<suren:field name="chirldrenNode_ArticleScore" byLinkText="内容管理统计" />
+			<suren:field name="chirldrenNode_NodeUpdateCycleStatistics" byLinkText="内容更新统计" />
+			<suren:field name="chirldrenNode_CountByDepartmentApprove" byLinkText="部门录用量统计" />
+			<suren:field name="chirldrenNode_ScoreOfDepartment" byLinkText="部门总分统计" />
+			<suren:field name="chirldrenNode_ScoreByApproveDataCount" byLinkText="录入者录用量统计" />
+			<suren:field name="chirldrenNode_ScoreOfInputtert" byLinkText="录入者总分统计" />
+			<suren:field name="chirldrenNode_RemunerationOfInputter" byLinkText="稿费按录入者统计" />
+			<suren:field name="chirldrenNode_StatisticsOfPublicInformation" byLinkText="信息公开统计" />
+			<suren:field name="chirldrenNode_SubjectCategoryUpdateCycleStatistics" byLinkText="信息公开更新统计" />
+			<suren:field name="chirldrenNode_PetitionStatistics" byLinkText="信访统计" />
+			<suren:field name="chirldrenNode_PetitionLetterReplyStatistics" byLinkText="信件办理统计" />
+			<suren:field name="chirldrenNode_SiteTraffic" byLinkText="站点浏览量明细" />
+
+			<suren:field name="parentNode_ContentManage" byLinkText="内容管理" />
+			<suren:field name="chirldrenNode_ContentHome" byLinkText="内容采编发" />
+			<suren:field name="chirldrenNode_ContentNavigationFiling" byLinkText="内容归档" />
+			<suren:field name="chirldrenNode_ContentRecycle" byLinkText="内容回收站" />
+			<suren:field name="chirldrenNode_SpecialManage" byLinkText="专题管理" />
+			<suren:field name="chirldrenNode_NodeManage" byLinkText="节点管理" />
+			<suren:field name="chirldrenNode_TagManage" byLinkText="标记管理" />
+			<suren:field name="chirldrenNode_ArticleTag" byLinkText="文章标记管理" />
+			<suren:field name="chirldrenNode_PhotoTag" byLinkText="图片标记管理" />
+			<suren:field name="chirldrenNode_SpecialTag" byLinkText="专题标记管理" />
+			<suren:field name="chirldrenNode_PrivilegeManage" byLinkText="权限管理" />
+			<suren:field name="chirldrenNode_NodePermissionSet" byLinkText="节点角色管理" />
+			<suren:field name="chirldrenNode_BatchNodePermissionSetRelationConfig" byLinkText="按节点配置权限" />
+			<suren:field name="chirldrenNode_AuditProcess" byLinkText="审核流程管理" />
+			<suren:field name="chirldrenNode_FieldPermissionManage" byLinkText="字段权限管理" />
+			<suren:field name="chirldrenNode_DispatchDepartment" byLinkText="发文部门管理" />
+
+			<suren:field name="parentNode_Publicinformation" byLinkText="信息公开" />
+			<suren:field name="chirldrenNode_PublicinformationManage" byLinkText="公开信息管理" />
+			<suren:field name="chirldrenNode_ApplicationForInformationDisclosure" byLinkText="信息公开申请表" />
+			<suren:field name="chirldrenNode_ApplicationformManage" byLinkText="申请表管理" />
+			<suren:field name="chirldrenNode_SetCurrenSiteDepartmentManager" byLinkText="申请表管理员设置" />
+			<suren:field name="chirldrenNode_SubjectcategoryManage" byLinkText="主题管理" />
+			<suren:field name="chirldrenNode_SubjectCategoryPermissionsetManage" byLinkText="主题角色管理" />
+			<suren:field name="chirldrenNode_DepartmentSetting" byLinkText="部门设置" />
+
+			<suren:field name="parentNode_EngineeringConstructionField" byLinkText="工程建设领域" />
+			<suren:field name="chirldrenNode_ProjectinfoPublicity" byLinkText="项目公开信息" />
+			<suren:field name="chirldrenNode_ConstructionCompany" byLinkText="从业单位信用信息" />
+			<suren:field name="chirldrenNode_Employee" byLinkText="从业人员信用信息" />
+			<suren:field name="chirldrenNode_LandRightsInformation" byLinkText="土地使用权信息" />
+			<suren:field name="chirldrenNode_MiningRightsInformation" byLinkText="矿业权信息" />
+			<suren:field name="chirldrenNode_EngineeringConstructionAllocation" byLinkText="工程建设配置" />
+			<suren:field name="chirldrenNode_CatalogManage" byLinkText="公开目录管理" />
+			<suren:field name="chirldrenNode_ProjectinfoPublicityMold" byLinkText="工程信息模型管理" />
+			<suren:field name="chirldrenNode_ProjectinfoPublicityConfig" byLinkText="工程建设领域配置" />
+
+			<suren:field name="parentNode_ConvenienceInformation" byLinkText="便民咨询" />
+			<suren:field name="chirldrenNode_LetterManage" byLinkText="咨询信件管理" />
+			<suren:field name="chirldrenNode_LetterCategory" byLinkText="信件分类管理" />
+			<suren:field name="parentNode_LetterComment" byLinkText="信件评论管理" />
+			<suren:field name="chirldrenNode_SiteLetterboxConfig" byLinkText="便民咨询配置" />
+
+			<suren:field name="parentNode_PetitionManagement" byLinkText="信访管理" />
+			<suren:field name="chirldrenNode_PetitionLetter" byLinkText="信件管理" />
+			<suren:field name="chirldrenNode_LeaderLetter" byLinkText="批核信件管理" />
+			<suren:field name="parentNode_DdepartmentLetter" byLinkText="部门信件办理" />
+			<suren:field name="chirldrenNode_SetDdepartmentManager" byLinkText="信访部门成员设置" />
+
+			<suren:field name="parentNode_OnlineInterview" byLinkText="在线访谈" />
+			<suren:field name="chirldrenNode_InterviewManage" byLinkText="访谈管理" />
+			<suren:field name="chirldrenNode_RelatedContentCategory" byLinkText="相关内容分类" />
+			<suren:field name="chirldrenNode_OnlineinterViewConfig" byLinkText="在线访谈配置" />
+
+			<suren:field name="parentNode_OnlineService" byLinkText="网上办事" />
+			<suren:field name="chirldrenNode_ServiceitemManage" byLinkText="服务事项管理" />
+			<suren:field name="chirldrenNode_WorkWindow" byLinkText="办事窗口管理" />
+			<suren:field name="chirldrenNode_ServicehallDepartment" byLinkText="部门管理" />
+			<suren:field name="chirldrenNode_ServicehallTopic" byLinkText="主题管理" />
+			<suren:field name="chirldrenNode_AdministrativeDivision" byLinkText="行政区域" />
+			<suren:field name="chirldrenNode_servicehallconfig" byLinkText="网上办事配置" />
+
+			<suren:field name="parentNode_CustomForm" byLinkText="在线表单" />
+			<suren:field name="chirldrenNode_FormManage" byLinkText="表单管理" />
+			<suren:field name="chirldrenNode_FormCategory" byLinkText="表单分类管理" />
+			<suren:field name="chirldrenNode_SiteCustomformConfig" byLinkText="表单配置" />
+
+			<suren:field name="parentNode_Advertising" byLinkText="广告管理" />
+			<suren:field name="chirldrenNode_AdvertisementSpace" byLinkText="广告版位管理" />
+			<suren:field name="chirldrenNode_Advertisement" byLinkText="广告基本信息管理" />
+
+			<suren:field name="parentNode_Survey" byLinkText="问卷调查" />
+			<suren:field name="chirldrenNode_QuestionnaireManage" byLinkText="问卷调查管理" />
+			<suren:field name="chirldrenNode_QuestionnaireTemplateConfig" byLinkText="问卷调查配置" />
+
+			<suren:field name="parentNode_Voting" byLinkText="投票管理" />
+			<suren:field name="chirldrenNode_VoteManage" byLinkText="投票管理" />
+			<suren:field name="chirldrenNode_VoteTemplateConfig" byLinkText="投票模板配置" />
+
+			<suren:field name="parentNode_WeChatManagement" byLinkText="微信管理" />
+			<suren:field name="chirldrenNode_MssSendMessage" byLinkText="群发管理" />
+			<suren:field name="chirldrenNode_CustommenuManage" byLinkText="菜单管理" />
+			<suren:field name="chirldrenNode_MaterialManagement" byLinkText="素材管理" />
+			<suren:field name="chirldrenNode_NewsSetMaterial" byLinkText="图文素材" />
+			<suren:field name="chirldrenNode_PhotoMaterial" byLinkText="图片素材" />
+			<suren:field name="chirldrenNode_FanManage" byLinkText="用户管理" />
+			<suren:field name="chirldrenNode_PublicaccountManage" byLinkText="公众号管理" />
+
+			<suren:field name="parentNode_FullTextSearch" byLinkText="全文检索" />
+			<suren:field name="chirldrenNode_searchItem" byLinkText="搜索项管理" />
+			<suren:field name="chirldrenNode_ModifyConfig" byLinkText="全文检索配置" />
+
+			<suren:field name="parentNode_DataCenter" byLinkText="数据中心" />
+			<suren:field name="chirldrenNode_DataCenterHome" byLinkText="共享数据" />
+
+			<suren:field name="parentNode_DataCollection" byLinkText="数据采集管理" />
+			<suren:field name="chirldrenNode_CollectionItem" byLinkText="采集项目管理" />
+
+			<suren:field name="parentNode_FileManage" byLinkText="文件管理" />
+			<suren:field name="chirldrenNode_SiteViewFile" byLinkText="模板管理" />
+			<suren:field name="chirldrenNode_SiteStyleFile" byLinkText="风格管理" />
+
+			<suren:field name="parentNode_SiteAdministratorManage" byLinkText="权限管理" />
+			<suren:field name="chirldrenNode_SiteAdministrator" byLinkText="管理员管理" />
+			<suren:field name="chirldrenNode_SiteAdministratorGroup" byLinkText="管理员组管理" />
+			<suren:field name="chirldrenNode_SitePermissionset" byLinkText="站点角色管理" />
+
+			<suren:field name="parentNode_SiteManage" byLinkText="站点管理" />
+			<suren:field name="chirldrenNode_SiteSetting" byLinkText="站点设置" />
+			<suren:field name="chirldrenNode_SiteSettingSetIpLimit" byLinkText="站点IP访问限定" />
+
+		</suren:page>
+	</suren:pages>
+</suren:autotest>

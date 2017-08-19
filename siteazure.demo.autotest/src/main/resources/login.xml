@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:autotest xmlns:suren="http://surenpi.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://surenpi.com
+		http://surenpi.com/schema/autotest/autotest.web.framework.xsd ">
+	<suren:engine />
+	<suren:pages>
+		<suren:page class="com.siteazure.demo.page.LoginPage"
+				url="http://www.siteazure.gov.cn/manage/login">
+			<suren:field name="LoginAdminName" byName="LoginAdminName" />
+			<suren:field name="LoginAdminPassword" byName="LoginAdminPassword" />
+			<suren:field name="SiteManageCode" byName="SiteManageCode" />
+			<suren:field name="submit" byCss="form-control btn-primary" />
+		</suren:page>
+	</suren:pages>
+</suren:autotest>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .title{text-align: center;}
+    .table_title{ font-weight: bold;}
+    .report_content{margin-top:10px;}
+    .report_result,.table_title{
+        width:100%;
+        text-align: center;
+    }
+    .report_result tr,.table_title tr{
+        background:#E8E8E8;
+    }
+    .report_result tr td,.table_title  tr td{
+        width:33%;
+        padding:10px 0;
+    }
+
+
+    .case_result{
+        width:100%;
+        text-align: center;
+          font-size:14px;
+    }
+    .case_result tbody{
+        width:100%;
+    }
+    .case_result tr{
+        background: ghostwhite;
+    }
+    .case_result tr td{
+        width:50%;
+        padding:5px;
+    }
+    .case_content{
+        transition: height 1s;
+        -moz-transition: height 1s;	/* Firefox 4 */
+        -webkit-transition: height 1s;	/* Safari 和 Chrome */
+        -o-transition: height 1s;	/* Opera */
+        overflow: hidden;
+        width:98%;
+        margin:0 1%;
+        border:  1px solid #E8E8E8;
+    }
+
+
+    .success_result{background:greenyellow;color:#FFFFFF;}
+    .fail_result{background: red;color:#FFFFFF;}
+
+</style>
+<body>
+    <h1 class = "title">我的工作站</h1>
+    <table class="table_title"  cellpadding="0" cellspacing="0" >
+        <tr>
+            <td>测试用例名称</td>
+            <td>执行状态</td>
+            <td>截图状态</td>
+        </tr>
+    </table>
+    <hr/>
+    <div class = "report_content">
+        <table class="report_result" cellpadding="0" cellspacing="0" >
+            <tr>
+                <td>登录</td>
+                <td class="success_result">success</td>
+                <td class="success_result">success</td>
+            </tr>
+        </table><div style="height:0px;" class = "case_content"><table class = "case_result" >
+            <tr class="table_title">
+                <td>测试详情名称</td>
+                <td>执行状态</td>
+            </tr>
+            <tr>
+                <td>输入用户名</td>
+                <td class="fail_result">fail</td>
+            </tr>
+            <tr>
+                <td>输入密码</td>
+                <td class="success_result">success</td>
+            </tr>
+            <tr>
+                <td>点击登录按钮</td>
+                <td class="success_result">success</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+<script type="text/javascript">
+    window.onload = function(){
+        var reports = document.getElementsByClassName("report_result");
+        for(var i = 0 ; i < reports.length ; i ++  ) {
+            reports[i].onclick = function (e) {
+                var report = this;
+                var caseResult = report.nextSibling;
+                var caseResultDisplay = caseResult.style.height;
+                caseResult.style.height = caseResultDisplay == "0px" ? "auto" : "0px";
+            }
+        }
+        var ts = document.getElementsByTagName("table");
+        for(var i = 0 ; i < ts.length ; i ++  ) {
+            ts[i].onmouseover = function () {
+                var t = this;
+                t.style.opacity = "0.8";
+            }
+            ts[i].onmouseout = function () {
+                var t = this;
+                t.style.opacity = "1";
+            }
+        }
+
+    }
+</script>
+</html>
